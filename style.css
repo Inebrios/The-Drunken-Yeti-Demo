@@ -1,0 +1,379 @@
+
+body {
+    background-color: rgba(37, 133, 223, 0.993);   
+}
+.mainText {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.menuBar {
+    color: white;
+    word-spacing: 2px;
+}
+
+.menuText {
+    border: 0px !important;
+    margin: 0px !important;
+    font-size: 12px !important;
+    padding: 0% !important; 
+}
+
+.menuText:hover {
+        background-color: #838889;
+   
+}
+
+.bg-dark {
+    background: #343a40 !important;
+}
+
+
+
+.parallax {
+    margin-top: 0px;
+    height: 500px; 
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    /* background-attachment: fixed; */
+    border: solid;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.parallaxHome2 {
+    /* The image used */
+    background-image: url("images/homeBackgroundTwo.jpg");
+    margin-top: 0px;
+    /* Set a specific height */
+    min-height: 500px; 
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-size: auto;
+    border: solid;
+    border-radius: 25px;
+}
+
+.ratesImgClass {
+    margin-top: 0px;
+    height: 500px; 
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    /* background-attachment: fixed; */
+    border: solid;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.rulesImgClass {
+    margin-top: 0px;
+    height: 500px; 
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    /* background-attachment: fixed; */
+    border: solid;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.voteImgClass {
+    /* The image used */
+    background-image: url("images/voteImage.jpg");
+    margin-top: 0px;
+    /* Set a specific height */
+    min-height: 500px; 
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-size: auto;
+    border: solid;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.centerClass {
+    margin: auto;
+    width: 95%;
+}
+
+.navbar-btn {
+    border-color: rgba(0, 0, 0, 0);
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #343a40;
+    padding: 10px 12px !important;
+    margin: 0px 5px 0px 8px;
+}
+.navbar-btn:hover {
+    color: #FFF;
+    background-color: #2685df !important;
+    border-color: black !important;
+}
+
+.btn-primary {
+    border-color: rgba(0, 0, 0, 0);
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #343a40;
+}
+
+.dropdown-menu {
+    color: white;
+    background-color: #343a40 !important;
+    border-color: black !important;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.dropDownText:hover {
+  color: white;
+  background-color: #2685df !important;
+  border-color: black !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+}
+
+.thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-4 {
+    transition: transform 0.8s; /* Animation */
+
+}
+
+.col-md-4:hover {
+    transform: scale(1.4);
+}
+
+h1 {
+    font-family: 'Inknut Antiqua', serif !important;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+h3 {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 26px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.836);
+    border-width: 5px;
+    background-color: #4993d8;
+    width: 55%;
+}
+
+h4 {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 26px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.fixed {
+    position: fixed;
+    width: 50%;
+    bottom: 10px;
+    border: 3px solid #8AC007;
+} 
+
+img {
+    border-radius: 8px;
+}
+
+.dropdown {
+    padding: 5px 5px !important;
+}
+
+.btn {
+    background-color: #343a40;
+    color: white;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-weight: 700;
+    
+}
+
+.btn:hover {
+    background-color: #2685df;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.dropdown-item {
+    color: white;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-weight: 700;
+}
+
+.dropdown-item:hover {
+    background-color: #2685df;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.centerClass-rates .btn:hover {
+    background-color: #343a40;
+}
+
+.card{
+    background-color: #2685df;
+    border-color: #2685df;
+}
+
+.list-group-item {
+    background-color: #343a40;
+}
+
+.listText {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 16px;
+    text-align: left;
+    color: white;
+    margin: 0px;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+.rateText {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.caption:hover {
+    transform: none !important;
+}
+
+.copyBox:hover{
+    transform: none !important;
+}
+
+.visible-input1   {
+    background-color: #d8dadb05;
+    color: black;
+    outline-color: #d8dadb05;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.visible-input2 {
+    background-color: #d8dadb05;
+    color: black;
+    outline-color: #d8dadb05;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.visible-button1 {
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4993d8;;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  
+.visible-button1:hover {background-color: #3a86ce;}
+
+.visible-button1:active {
+background-color: #4993d8;;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.visible-button2 {
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4993d8;;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.visible-button2:hover {background-color: #3a86ce;}
+
+.visible-button2:active {
+    background-color: #4993d8;;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.rulesClass .btn-primary:hover {
+    background-color: #3a4249;
+
+}
+
+.voteClass .list-group-item {
+    background-color: #3a86ce;
+}
+
+.voteClass #dropdownMenuButton:hover {
+    background-color: #2685df;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.rulesClass #dropdownMenuButton:hover {
+    background-color: #2685df;
+    color: white;
+    border-color: rgba(0, 0, 0, 0); 
+}
